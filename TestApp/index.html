@@ -1,0 +1,115 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="range-container">
+        <div class="storage">
+          <div class="storage-name"></div>
+          <div class="inline-block">
+            <input class="storage-count" type="range" value="40" max="1000" />
+            <div class="input-value">
+              <div class="storage-value">40</div>
+              <div>1000</div>
+            </div>
+          </div>
+        </div>
+        <div class="storage">
+          <div class="transfer-name"></div>
+          <div class="inline-block">
+            <input class="transfer-count" type="range" value="40" max="1000" />
+            <div class="input-value">
+              <div class="transfer-value">40</div>
+              <div>1000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="provider-container">
+          <div class="provider">backblaze</div>
+          <div class="change-radio provider check">
+            <div>bunny</div>
+            <div class="first-radio">
+              <input
+                class="radio"
+                type="radio"
+                value="0.01"
+                checked
+                name="check"
+              />
+              <span>HDD</span>
+              <input class="radio" type="radio" value="0.02" name="check" />
+              <span>SSD</span>
+            </div>
+          </div>
+          <div class="change-scaleway provider check">
+            <div>scaleway</div>
+            <div>
+              <input
+                class="radio-scaleway"
+                type="radio"
+                value="0.06"
+                checked
+                name="check2"
+              />
+              <span>Multi </span>
+              <input
+                class="radio-scaleway"
+                type="radio"
+                value="0.03"
+                name="check2"
+              />
+              <span>Single</span>
+            </div>
+          </div>
+          <div class="provider">vultr</div>
+        </div>
+        <div class="images-container">
+          <div class="image">
+            <img src="./images/backblaze_logo_icon_167820.png" alt="" />
+          </div>
+          <div class="image">
+            <img
+              src="./images/310213724_596094838913527_7273302277921969525_n.png"
+              alt=""
+            />
+          </div>
+          <div class="image">
+            <img src="./images/scaleway_icon_146103.png" alt="" />
+          </div>
+          <div class="image">
+            <img src="./images/vultr.256x256.png" alt="" />
+          </div>
+        </div>
+        <div class="scale-container">
+          <div class="flex-price">
+            <div class="backblaze backblaze-scale scale" color="red"></div>
+            <div class="backblaze-price price"></div>
+          </div>
+          <div class="flex-price">
+            <div class="bunny bunny-scale scale" color="#f56010"></div>
+            <div for="" class="bunny-price price"></div>
+          </div>
+          <div class="flex-price">
+            <div class="scaleway scaleway-scale scale" color="#701989"></div>
+            <div for="" class="scaleway-price price"></div>
+          </div>
+          <div class="flex-price">
+            <div class="vultr vultr-scale scale" color="#09f"></div>
+            <div for="" class="vultr-price price"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
